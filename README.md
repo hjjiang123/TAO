@@ -24,9 +24,17 @@ Before you begin, ensure you have met the following requirements:
 
 To compile the project, navigate to the `node` directory and run the following commands:
 
+On Node
+
 ```bash
 cd node
 sudo make
+```
+
+On Client
+
+```bash
+sh test.sh test1 TEST6
 ```
 
 ## Test
@@ -37,6 +45,19 @@ sh make_task_custom.sh
 ```
 
 ## Usage
+
+On Node:
+
+```bash
+cd node/build
+./node
+```
+
+On Client
+
+```bash
+./test1
+```
 
 ## Contact
 

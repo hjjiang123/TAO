@@ -34,6 +34,7 @@ sudo make
 On Client
 
 ```bash
+cd client
 sh test.sh test1 TEST6
 ```
 
@@ -53,9 +54,10 @@ cd node/build
 ./node
 ```
 
-On Client
+On Client:
 
 ```bash
+cd client
 ./test1
 ```
 
